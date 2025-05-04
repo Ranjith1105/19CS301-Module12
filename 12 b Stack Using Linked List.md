@@ -2,37 +2,42 @@
 
 ## Aim
 
-To write a Python program to insert 3 elements into a stack and display the index value of each element stored in the stack.
+To write a Python program that takes 3 inputs from the user, inserts them into a stack, and displays each element along with its index.
 
 ## Algorithm
 
-1. Start  
-2. Create a stack  
-3. Append elements to the stack  
-4. Use a loop to print the index and value of each element in the stack  
-5. Print the result  
-6. Stop
+1.Start
+2.Initialize an empty stack.
+3.Repeat 3 times:
+     Accept an input from the user.
+     Insert the input into the stack using append().
+4.For each element in the stack:
+5.Display its index and value.
+6.End
 
 ## Program
 
-```python
+```
+
 stack = []
 
-# Push elements into the stack
-stack.append('a')
-stack.append('b')
-stack.append('c')
+stack.append(input("Insert the first element:"))
+stack.append(input("\nInsert the second element:"))
+stack.append(input("\nInsert the third element:"))
 
-# Display the initial stack
-print('Initial stack:', stack)
+print('\nInitial stack: ' + str(stack))
 
-# Print index and element
 for i in range(len(stack)):
-    print(i, stack[i])
+    print(i, end=" ")
+    print(stack[i])
+
+
 ```
 
 ## Output
+![Screenshot 2025-05-04 074302](https://github.com/user-attachments/assets/f4927a17-3bd3-4626-93ea-07dc8f573379)
 
 
 ## Result
+ Thus, the given program is implemented and executed successfully .
 
