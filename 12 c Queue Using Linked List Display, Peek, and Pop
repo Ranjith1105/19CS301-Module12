@@ -2,35 +2,42 @@
 
 ## Aim
 
-To write a Python program to insert 3 elements into a queue and display each element with its index.
+To write a Python program to insert elements into a queue and check whether the queue is full or not.
+
 
 ## Algorithm
 
-1. Start  
-2. Create a queue  
-3. Append elements to the queue  
-4. Use a loop to print each element and its index  
-5. Stop
+1. Start
+2.Define a maximum size for the queue .
+3.Initialize an empty queue.
+4.Insert elements into the queue using a loop.
+5.After each insertion, or at the end, check:
+     If the length of the queue is equal to the maximum size → Queue is Full.
+     Else → Queue is Not Full.
+6.Display the queue status.
+7.End
 
 ## Program
+Reg no: 212223020021
+Name: Ranjith P
 
-```python
-queue = []
+```
+from queue import Queue
 
-# Enqueue elements into the queue
-queue.append("a")
-queue.append("b")
-queue.append("c")
+queue = Queue(maxsize = 4)
 
-# Display the initial queue
-print("Initial queue:", queue)
+queue.put('a')
+queue.put('b')
+queue.put('c')
 
-# Display index and element
-for i in range(len(queue)):
-    print(i, queue[i])
+if queue.full():
+    print("Queue is full")
+else:
+    print("Queue is not full")
 ```
 
 ## OUTPUT
 
 
 ## RESULT
+Result: Thus, the given program is implemented and executed successfully .
