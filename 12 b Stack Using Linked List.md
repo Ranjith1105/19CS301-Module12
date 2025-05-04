@@ -16,6 +16,8 @@ To write a Python program that takes 3 inputs from the user, inserts them into a
 6.End
 
 ## Program
+Reg no: 212223020021
+Name: Ranjith P
 
 ```
 
