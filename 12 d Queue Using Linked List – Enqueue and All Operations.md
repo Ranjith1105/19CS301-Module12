@@ -38,3 +38,6 @@ print("\nElement at the rear of the queue is", queue[-1])
 
 
 ## RESULT
+Result: Thus, the given program is implemented and executed successfully .
+
+
