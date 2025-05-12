@@ -3,7 +3,6 @@
 
 This project demonstrates a basic stack implementation in Python using list methods to Stack Operations: Insertion, Deletion, and Displaying Remaining Elements
 
-
 ## AIM
 
 To perform basic stack operations by inserting three elements, deleting one element, and displaying the number of elements remaining in the stack.
