@@ -1,4 +1,4 @@
-# 12 d Queue Using Linked List – Enqueue and All Operations
+:# 12 d Queue Using Linked List – Enqueue and All Operations
 
 ## Aim
 
@@ -13,6 +13,8 @@ To write a Python program to add 4 elements to a queue and print the elements pr
 5. Stop
 
 ## Program
+Reg no:212223020021
+Name: Ranjith P
 
 ```python
 queue = []
@@ -32,6 +34,7 @@ print("\nElement at the rear of the queue is", queue[-1])
 
 
 ## OUTPUT
+![Screenshot 2025-05-12 223205](https://github.com/user-attachments/assets/3f4e0625-ef9b-4128-ab1a-f95170db07aa)
 
 
 ## RESULT
