@@ -6,13 +6,20 @@ To write a Python program that takes 3 inputs from the user, inserts them into a
 
 ## Algorithm
 
-1.Start
+1.Start.
+
 2.Initialize an empty stack.
+
 3.Repeat 3 times:
+
      Accept an input from the user.
+     
      Insert the input into the stack using append().
+     
 4.For each element in the stack:
+
 5.Display its index and value.
+
 6.End
 
 ## Program
