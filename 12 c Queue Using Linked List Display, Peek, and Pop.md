@@ -2,20 +2,28 @@
 
 ## Aim
 
-To write a Python program to insert elements into a queue and check whether the queue is full or not.
+To implement a queue with a fixed maximum size using Python's queue module, insert elements into the queue, and check whether the queue is full using the full() method.
 
 
 ## Algorithm
 
-1. Start
-2.Define a maximum size for the queue .
-3.Initialize an empty queue.
-4.Insert elements into the queue using a loop.
-5.After each insertion, or at the end, check:
-     If the length of the queue is equal to the maximum size → Queue is Full.
-     Else → Queue is Not Full.
-6.Display the queue status.
-7.End
+1. Import the Queue module from the queue library.
+
+2. Create a queue with a maximum size of 4 using Queue(maxsize=4).
+
+3. Insert elements into the queue using put():
+
+     Insert 'a'
+
+     Insert 'b'
+
+     Insert 'c'
+
+4. Check if the queue is full using queue.full():
+
+5. If it returns True, print "Queue is full".
+
+6.Otherwise, print "Queue is not full".
 
 ## Program
 Reg no: 212223020021
@@ -37,7 +45,7 @@ else:
 ```
 
 ## OUTPUT
-![Screenshot 2025-05-12 223016](https://github.com/user-attachments/assets/20704950-d3b9-4682-8d17-6075d9b32caa)
+![Screenshot 2025-05-20 223700](https://github.com/user-attachments/assets/c7fb0cbd-3a2f-456d-b7b1-ebf8f164bfd6)
 
 
 
